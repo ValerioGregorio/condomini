@@ -1,0 +1,40 @@
+[18-Jan-2020 18:24:31 UTC] WordPress errore database You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lucianograppasonno@alice.it' at line 1 per la query SELECT * FROM wp_users WHERE user_email='lucianograppasonno@alice.it' or user_login='lucianograppasonno@alice.it
+[18-Jan-2020 18:24:31 UTC] WordPress errore database Table 'dbs84egy2w7hxj.wp_newsletter' doesn't exist per la query INSERT INTO wp_newsletter (nome,mail,cancelled_flag) VALUES ('','','N')
+[18-Jan-2020 18:26:16 UTC] WordPress errore database You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lucianograppasonno@alice.it' at line 1 per la query SELECT * FROM wp_users WHERE user_email='lucianograppasonno@alice.it' or user_login='lucianograppasonno@alice.it
+[18-Jan-2020 18:26:16 UTC] WordPress errore database Table 'dbs84egy2w7hxj.wp_newsletter' doesn't exist per la query INSERT INTO wp_newsletter (nome,mail,cancelled_flag) VALUES ('','','N')
+[18-Jan-2020 18:26:40 UTC] WordPress errore database You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lucianograppasonno@alice.it' at line 1 per la query SELECT * FROM wp_users WHERE user_email='lucianograppasonno@alice.it' or user_login='lucianograppasonno@alice.it
+[18-Jan-2020 18:28:02 UTC] WordPress errore database You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lucianograppasonno@alice.it' at line 1 per la query SELECT * FROM wp_users WHERE user_email='lucianograppasonno@alice.it' or user_login='lucianograppasonno@alice.it
+[18-Jan-2020 18:30:33 UTC] WordPress errore database You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''lucianograppasonno@alice.it' at line 1 per la query SELECT * FROM wp_users WHERE user_email='lucianograppasonno@alice.it' or user_login='lucianograppasonno@alice.it
+[20-Jan-2020 02:58:36 CST6CDT] PHP Parse error:  syntax error, unexpected '/' in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/di-business/inc/check-login.php on line 25
+[22-Jan-2020 03:35:52 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory_uri() in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/di-business/inc/check-login.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/di-business/inc/check-login.php on line 9
+[22-Jan-2020 03:43:03 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory_uri() in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/di-business/inc/check-login.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/di-business/inc/check-login.php on line 9
+[22-Jan-2020 03:43:43 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory_uri() in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/di-business/inc/check-login.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/di-business/inc/check-login.php on line 9
+[22-Jan-2020 03:45:25 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory_uri() in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/di-business/inc/check-login.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/di-business/inc/check-login.php on line 9
+[22-Jan-2020 03:46:34 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory_uri() in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/di-business/inc/check-login.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/di-business/inc/check-login.php on line 9
+[22-Jan-2020 03:47:39 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory_uri() in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/di-business/inc/check-login.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/di-business/inc/check-login.php on line 9
+[22-Jan-2020 03:48:31 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory_uri() in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/di-business/inc/check-login.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/di-business/inc/check-login.php on line 9
+[25-Jan-2020 11:47:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/side-web.it/public_html/condomini/wp-config.php:1) in /home/customer/www/side-web.it/public_html/condomini/wp-includes/pluggable.php on line 932
+[25-Jan-2020 11:47:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/side-web.it/public_html/condomini/wp-config.php:1) in /home/customer/www/side-web.it/public_html/condomini/wp-includes/pluggable.php on line 932
+[25-Jan-2020 12:46:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/side-web.it/public_html/condomini/wp-config.php:1) in /home/customer/www/side-web.it/public_html/condomini/wp-includes/pluggable.php on line 932
+[25-Jan-2020 12:46:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/customer/www/side-web.it/public_html/condomini/wp-config.php:1) in /home/customer/www/side-web.it/public_html/condomini/wp-includes/pluggable.php on line 932

@@ -1,0 +1,91 @@
+/*
+Theme Name: Responsive Mash
+Description: Responsive Commerce is a multipurpose, SEO friendly, more than responsive, clean, modern and fully customizable WordPress theme. it can be use to display informations and sell products online. it is suitable for many type of websites such as portfolio, blog, news page, creative business, small businesses, restaurants, wedding planners, sport, medical shops, startups, corporate businesses, online agencies and firms, portfolios, photo gallery, ecommerce ( WooCommerce ), freelancers, photography etc. 
+Author: Alex Sander
+Version: 2.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, left-sidebar, right-sidebar, grid-layout, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, flexible-header, full-width-template, microformats, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, blog, e-commerce, entertainment, portfolio, education, news
+Text Domain: responsive-commerce
+Template: di-business
+*/
+
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+	-webkit-transition: box-shadow 1s ease, padding 0.5s ease;
+	transition: box-shadow 1s ease, padding 0.5s ease;
+	padding: 2px;
+}
+
+.woocommerce ul.products li.product img, .woocommerce-page ul.products li.product img {
+	-webkit-transition: transform 0s ease;
+	transition: transform 0s ease;
+}
+
+.woocommerce ul.products li.product:hover img, .woocommerce-page ul.products li.product:hover img {
+	-webkit-transition: transform 1s ease;
+	transition: transform 1s ease;
+}
+
+.woocommerce ul.products li.product .onsale {
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.woocommerce ul.products li.product:hover .onsale {
+	top: 0;
+	right: auto;
+	left: 0;
+	margin: -.5em -0.5em 0 -0.5em;
+}
+
+.woocommerce-page .woocommerce-result-count {
+	float: left;
+	margin-top: 20px;
+	font-size: 14px !important;
+	line-height: 10px !important;
+}
+
+.woocommerce-page .woocommerce-ordering select {
+	padding: 10px 15px 10px 10px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 0;
+	color: #a0a0a0;
+}
+
+.woocommerce ul.products li.product .woocommerce-loop-category__title, .woocommerce ul.products li.product .woocommerce-loop-product__title, .woocommerce ul.products li.product h3 {
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.woocommerce ul.products li.product .star-rating {
+	display: none;
+}
+
+.woocommerce ul.products li.product .price {
+	text-align: center;
+	margin: 15px 0px;
+	font-size: 14px;
+}
+
+.woocommerce ul.products li.product .button.add_to_cart_button,
+.woocommerce ul.products li.product .added_to_cart,
+.woocommerce ul.products li.product .button.product_type_external,
+.woocommerce ul.products li.product .button.product_type_variable,
+.woocommerce ul.products li.product .button.product_type_grouped {
+	margin: 0 auto;
+	display: table;
+}
+
+
+.login-error{
+	margin-top: 15px;
+	color: red;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.pagination-custom .page-numbers {
+	
+	margin-right: 10px;
+	margin-left: 10px;
+}

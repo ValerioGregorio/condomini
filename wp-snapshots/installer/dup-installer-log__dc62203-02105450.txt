@@ -1,0 +1,395 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 07:39:21
+* VERSION: 1.3.24
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.12                                |7.4.12
+OS__________________: WINNT                                 |WINNT
+CREATED_____________: 2021-03-02 10:54:50
+WP VERSION__________: 5.3.6
+DUP VERSION_________: 1.3.24
+DB__________________: 10.4.16
+DB TABLES___________: 13
+DB ROWS_____________: 1,431
+DB FILE SIZE________: 3.75MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.12 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.46 (Win64) OpenSSL/1.1.1h PHP/7.4.12
+DOC ROOT____________: "C:/xampp/htdocs/cond24"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/cond24/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "020221_codominio_dc6220374ace56933861_20210302105450_archive.zip"
+SIZE________________: 46.74MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 4398
+    [filename] => C:\xampp\htdocs\cond24\020221_codominio_dc6220374ace56933861_20210302105450_archive.zip
+    [comment] => 
+)
+File timestamp set to Current: 2021-03-11 07:40:55
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 07:40:55 - RUNTIME: 93.8687 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 07:43:05
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.16 -- Build Server: 10.4.16
+FILE SIZE:	dup-database__dc62203-02105450.sql (1.33MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/xampp/htdocs/cond24/dup-installer/dup-installer-data__dc62203-02105450.sql]
+COLLATE FB:	Off
+[PHP ERR][WARN] MSG:count(): Parameter must be an array or an object that implements Countable [CODE:2|FILE:C:\xampp\htdocs\cond24\dup-installer\ctrls\ctrl.s2.dbinstall.php|LINE:386]
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	125
+
+wp_commentmeta: (0)
+wp_comments: (9)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_options: (213)
+wp_postmeta: (602)
+wp_posts: (407)
+wp_term_relationships: (29)
+wp_term_taxonomy: (10)
+wp_termmeta: (0)
+wp_terms: (10)
+wp_usermeta: (119)
+wp_users: (6)
+Removed '10' cache/transient rows
+
+INSERT DATA RUNTIME: 6.8435 sec.
+STEP-2 COMPLETE @ 07:43:12 - RUNTIME: 6.8619 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 07:45:55
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "codominio tuttidaccordo"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "C:/xampp/htdocs/condomini/"
+path_new______________: "C:/xampp/htdocs/cond24/"
+siteurl_______________: "http://localhost/cond24"
+url_old_______________: "http://localhost/condomini"
+url_new_______________: "http://localhost/cond24"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbhost________________: "localhost"
+dbuser________________: "root"
+dbname________________: "cond24"
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_username___________: ""
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     9][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/condomini/" ======================> "C:/xampp/htdocs/cond24/"
+	SEARCH  2:"C:\/xampp\/htdocs\/condomini\/" ==================> "C:\/xampp\/htdocs\/cond24\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fcondomini%2F" ============> "C%3A%2Fxampp%2Fhtdocs%2Fcond24%2F"
+	SEARCH  4:"C:\xampp\htdocs\condomini" =======================> "C:/xampp/htdocs/cond24"
+	SEARCH  5:"C:\\xampp\\htdocs\\condomini" ====================> "C:\/xampp\/htdocs\/cond24"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Ccondomini" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fcond24"
+	SEARCH  7:"//localhost/condomini" ===========================> "//localhost/cond24"
+	SEARCH  8:"\/\/localhost\/condomini" ========================> "\/\/localhost\/cond24"
+	SEARCH  9:"%2F%2Flocalhost%2Fcondomini" =====================> "%2F%2Flocalhost%2Fcond24"
+	SEARCH 10:"https://localhost/cond24" ========================> "http://localhost/cond24"
+	SEARCH 11:"https:\/\/localhost\/cond24" =====================> "http:\/\/localhost\/cond24"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcond24" ================> "http%3A%2F%2Flocalhost%2Fcond24"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   213][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/condomini/" ======================> "C:/xampp/htdocs/cond24/"
+	SEARCH  2:"C:\/xampp\/htdocs\/condomini\/" ==================> "C:\/xampp\/htdocs\/cond24\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fcondomini%2F" ============> "C%3A%2Fxampp%2Fhtdocs%2Fcond24%2F"
+	SEARCH  4:"C:\xampp\htdocs\condomini" =======================> "C:/xampp/htdocs/cond24"
+	SEARCH  5:"C:\\xampp\\htdocs\\condomini" ====================> "C:\/xampp\/htdocs\/cond24"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Ccondomini" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fcond24"
+	SEARCH  7:"//localhost/condomini" ===========================> "//localhost/cond24"
+	SEARCH  8:"\/\/localhost\/condomini" ========================> "\/\/localhost\/cond24"
+	SEARCH  9:"%2F%2Flocalhost%2Fcondomini" =====================> "%2F%2Flocalhost%2Fcond24"
+	SEARCH 10:"https://localhost/cond24" ========================> "http://localhost/cond24"
+	SEARCH 11:"https:\/\/localhost\/cond24" =====================> "http:\/\/localhost\/cond24"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcond24" ================> "http%3A%2F%2Flocalhost%2Fcond24"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:   602][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/condomini/" ======================> "C:/xampp/htdocs/cond24/"
+	SEARCH  2:"C:\/xampp\/htdocs\/condomini\/" ==================> "C:\/xampp\/htdocs\/cond24\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fcondomini%2F" ============> "C%3A%2Fxampp%2Fhtdocs%2Fcond24%2F"
+	SEARCH  4:"C:\xampp\htdocs\condomini" =======================> "C:/xampp/htdocs/cond24"
+	SEARCH  5:"C:\\xampp\\htdocs\\condomini" ====================> "C:\/xampp\/htdocs\/cond24"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Ccondomini" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fcond24"
+	SEARCH  7:"//localhost/condomini" ===========================> "//localhost/cond24"
+	SEARCH  8:"\/\/localhost\/condomini" ========================> "\/\/localhost\/cond24"
+	SEARCH  9:"%2F%2Flocalhost%2Fcondomini" =====================> "%2F%2Flocalhost%2Fcond24"
+	SEARCH 10:"https://localhost/cond24" ========================> "http://localhost/cond24"
+	SEARCH 11:"https:\/\/localhost\/cond24" =====================> "http:\/\/localhost\/cond24"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcond24" ================> "http%3A%2F%2Flocalhost%2Fcond24"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   407][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/condomini/" ======================> "C:/xampp/htdocs/cond24/"
+	SEARCH  2:"C:\/xampp\/htdocs\/condomini\/" ==================> "C:\/xampp\/htdocs\/cond24\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fcondomini%2F" ============> "C%3A%2Fxampp%2Fhtdocs%2Fcond24%2F"
+	SEARCH  4:"C:\xampp\htdocs\condomini" =======================> "C:/xampp/htdocs/cond24"
+	SEARCH  5:"C:\\xampp\\htdocs\\condomini" ====================> "C:\/xampp\/htdocs\/cond24"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Ccondomini" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fcond24"
+	SEARCH  7:"//localhost/condomini" ===========================> "//localhost/cond24"
+	SEARCH  8:"\/\/localhost\/condomini" ========================> "\/\/localhost\/cond24"
+	SEARCH  9:"%2F%2Flocalhost%2Fcondomini" =====================> "%2F%2Flocalhost%2Fcond24"
+	SEARCH 10:"https://localhost/cond24" ========================> "http://localhost/cond24"
+	SEARCH 11:"https:\/\/localhost\/cond24" =====================> "http:\/\/localhost\/cond24"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcond24" ================> "http%3A%2F%2Flocalhost%2Fcond24"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    29][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/condomini/" ======================> "C:/xampp/htdocs/cond24/"
+	SEARCH  2:"C:\/xampp\/htdocs\/condomini\/" ==================> "C:\/xampp\/htdocs\/cond24\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fcondomini%2F" ============> "C%3A%2Fxampp%2Fhtdocs%2Fcond24%2F"
+	SEARCH  4:"C:\xampp\htdocs\condomini" =======================> "C:/xampp/htdocs/cond24"
+	SEARCH  5:"C:\\xampp\\htdocs\\condomini" ====================> "C:\/xampp\/htdocs\/cond24"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Ccondomini" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fcond24"
+	SEARCH  7:"//localhost/condomini" ===========================> "//localhost/cond24"
+	SEARCH  8:"\/\/localhost\/condomini" ========================> "\/\/localhost\/cond24"
+	SEARCH  9:"%2F%2Flocalhost%2Fcondomini" =====================> "%2F%2Flocalhost%2Fcond24"
+	SEARCH 10:"https://localhost/cond24" ========================> "http://localhost/cond24"
+	SEARCH 11:"https:\/\/localhost\/cond24" =====================> "http:\/\/localhost\/cond24"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcond24" ================> "http%3A%2F%2Flocalhost%2Fcond24"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/condomini/" ======================> "C:/xampp/htdocs/cond24/"
+	SEARCH  2:"C:\/xampp\/htdocs\/condomini\/" ==================> "C:\/xampp\/htdocs\/cond24\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fcondomini%2F" ============> "C%3A%2Fxampp%2Fhtdocs%2Fcond24%2F"
+	SEARCH  4:"C:\xampp\htdocs\condomini" =======================> "C:/xampp/htdocs/cond24"
+	SEARCH  5:"C:\\xampp\\htdocs\\condomini" ====================> "C:\/xampp\/htdocs\/cond24"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Ccondomini" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fcond24"
+	SEARCH  7:"//localhost/condomini" ===========================> "//localhost/cond24"
+	SEARCH  8:"\/\/localhost\/condomini" ========================> "\/\/localhost\/cond24"
+	SEARCH  9:"%2F%2Flocalhost%2Fcondomini" =====================> "%2F%2Flocalhost%2Fcond24"
+	SEARCH 10:"https://localhost/cond24" ========================> "http://localhost/cond24"
+	SEARCH 11:"https:\/\/localhost\/cond24" =====================> "http:\/\/localhost\/cond24"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcond24" ================> "http%3A%2F%2Flocalhost%2Fcond24"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/condomini/" ======================> "C:/xampp/htdocs/cond24/"
+	SEARCH  2:"C:\/xampp\/htdocs\/condomini\/" ==================> "C:\/xampp\/htdocs\/cond24\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fcondomini%2F" ============> "C%3A%2Fxampp%2Fhtdocs%2Fcond24%2F"
+	SEARCH  4:"C:\xampp\htdocs\condomini" =======================> "C:/xampp/htdocs/cond24"
+	SEARCH  5:"C:\\xampp\\htdocs\\condomini" ====================> "C:\/xampp\/htdocs\/cond24"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Ccondomini" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fcond24"
+	SEARCH  7:"//localhost/condomini" ===========================> "//localhost/cond24"
+	SEARCH  8:"\/\/localhost\/condomini" ========================> "\/\/localhost\/cond24"
+	SEARCH  9:"%2F%2Flocalhost%2Fcondomini" =====================> "%2F%2Flocalhost%2Fcond24"
+	SEARCH 10:"https://localhost/cond24" ========================> "http://localhost/cond24"
+	SEARCH 11:"https:\/\/localhost\/cond24" =====================> "http:\/\/localhost\/cond24"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcond24" ================> "http%3A%2F%2Flocalhost%2Fcond24"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:   119][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/condomini/" ======================> "C:/xampp/htdocs/cond24/"
+	SEARCH  2:"C:\/xampp\/htdocs\/condomini\/" ==================> "C:\/xampp\/htdocs\/cond24\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fcondomini%2F" ============> "C%3A%2Fxampp%2Fhtdocs%2Fcond24%2F"
+	SEARCH  4:"C:\xampp\htdocs\condomini" =======================> "C:/xampp/htdocs/cond24"
+	SEARCH  5:"C:\\xampp\\htdocs\\condomini" ====================> "C:\/xampp\/htdocs\/cond24"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Ccondomini" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fcond24"
+	SEARCH  7:"//localhost/condomini" ===========================> "//localhost/cond24"
+	SEARCH  8:"\/\/localhost\/condomini" ========================> "\/\/localhost\/cond24"
+	SEARCH  9:"%2F%2Flocalhost%2Fcondomini" =====================> "%2F%2Flocalhost%2Fcond24"
+	SEARCH 10:"https://localhost/cond24" ========================> "http://localhost/cond24"
+	SEARCH 11:"https:\/\/localhost\/cond24" =====================> "http:\/\/localhost\/cond24"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcond24" ================> "http%3A%2F%2Flocalhost%2Fcond24"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/condomini/" ======================> "C:/xampp/htdocs/cond24/"
+	SEARCH  2:"C:\/xampp\/htdocs\/condomini\/" ==================> "C:\/xampp\/htdocs\/cond24\/"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2Fcondomini%2F" ============> "C%3A%2Fxampp%2Fhtdocs%2Fcond24%2F"
+	SEARCH  4:"C:\xampp\htdocs\condomini" =======================> "C:/xampp/htdocs/cond24"
+	SEARCH  5:"C:\\xampp\\htdocs\\condomini" ====================> "C:\/xampp\/htdocs\/cond24"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5Ccondomini" ===============> "C%3A%2Fxampp%2Fhtdocs%2Fcond24"
+	SEARCH  7:"//localhost/condomini" ===========================> "//localhost/cond24"
+	SEARCH  8:"\/\/localhost\/condomini" ========================> "\/\/localhost\/cond24"
+	SEARCH  9:"%2F%2Flocalhost%2Fcondomini" =====================> "%2F%2Flocalhost%2Fcond24"
+	SEARCH 10:"https://localhost/cond24" ========================> "http://localhost/cond24"
+	SEARCH 11:"https:\/\/localhost\/cond24" =====================> "http:\/\/localhost\/cond24"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fcond24" ================> "http%3A%2F%2Flocalhost%2Fcond24"
+--------------------------------------
+SCANNED:	Tables:13 	|	 Rows:1405 	|	 Cells:13479 
+UPDATED:	Tables:3 	|	 Rows:428 	|	 Cells:597 
+ERRORS:		0 
+RUNTIME:	1.248200 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""cond24""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache 'htaccess.orig' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 07:45:56 - RUNTIME: 1.4141 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

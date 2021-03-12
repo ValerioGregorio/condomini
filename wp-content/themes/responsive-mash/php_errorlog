@@ -1,0 +1,56 @@
+[19-Jan-2020 09:25:41 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory_uri() in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/responsive-mash/custom-login.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/responsive-mash/custom-login.php on line 10
+[19-Jan-2020 09:38:44 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/responsive-mash/custom-login.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/responsive-mash/custom-login.php on line 11
+[19-Jan-2020 09:42:41 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/responsive-mash/custom-login.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/responsive-mash/custom-login.php on line 15
+[19-Jan-2020 09:43:45 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/responsive-mash/custom-login.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/responsive-mash/custom-login.php on line 11
+[19-Jan-2020 09:47:32 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/responsive-mash/custom-login.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/responsive-mash/custom-login.php on line 11
+[19-Jan-2020 09:48:24 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/responsive-mash/custom-login.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/responsive-mash/custom-login.php on line 11
+[19-Jan-2020 09:49:50 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/responsive-mash/custom-login.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/responsive-mash/custom-login.php on line 11
+[19-Jan-2020 09:50:27 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/responsive-mash/custom-login.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/responsive-mash/custom-login.php on line 11
+[19-Jan-2020 09:50:42 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/responsive-mash/custom-login.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/responsive-mash/custom-login.php on line 11
+[19-Jan-2020 09:58:55 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/responsive-mash/custom-login.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/responsive-mash/custom-login.php on line 11
+[19-Jan-2020 10:00:51 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/responsive-mash/custom-login.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/responsive-mash/custom-login.php on line 11
+[19-Jan-2020 10:00:57 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/responsive-mash/custom-login.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/responsive-mash/custom-login.php on line 11
+[19-Jan-2020 10:17:09 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory_uri() in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/responsive-mash/custom-login.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/responsive-mash/custom-login.php on line 10
+[19-Jan-2020 10:17:11 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory_uri() in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/responsive-mash/custom-login.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/side-web.it/public_html/condomini/wp-content/themes/responsive-mash/custom-login.php on line 10
